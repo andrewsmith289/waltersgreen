@@ -15,9 +15,8 @@ header#header-3 nav {
 }
 
 .col-md-6.intro-txt.white-color {
-  background-color: rgba(0, 0, 0, 0.6);
-  padding-top: 1em;
-  padding-bottom: 1em;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 1em 2em;
 }
 
 section#intro-6 {
@@ -34,6 +33,7 @@ section#intro-6 {
 
 section#intro-6 h2 {
   font-size: 50px;
+  line-height: 60px;
 }
 
 .underline {
