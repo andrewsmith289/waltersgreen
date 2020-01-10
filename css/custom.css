@@ -66,3 +66,9 @@ section#intro-6 h2 {
     padding-left: inherit;
   }
 }
+
+@media only screen and (max-width: 767px) {
+  .navbar-header .navbar-brand {
+    padding: 0;
+  }
+}
