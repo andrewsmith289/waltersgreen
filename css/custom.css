@@ -34,6 +34,10 @@ section#intro-6 {
   background-color: #eee;
 }
 
+section#intro-6 h2 {
+  font-size: 50px;
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -44,4 +48,23 @@ section#intro-6 {
 
 .no-right-pad {
   padding-right: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  #intro-6-content .intro-txt {
+    padding: 2em;
+  }
+
+  .no-right-pad,
+  .no-left-pad {
+    background-color: inherit;
+  }
+
+  .no-right-pad {
+    padding-right: inherit;
+  }
+
+  .no-left-pad {
+    padding-left: inherit;
+  }
 }
