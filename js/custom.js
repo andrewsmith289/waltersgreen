@@ -1,21 +1,7 @@
 // JavaScript Document
 
 $(window).on('load', function() {
-  'use strict';
-
-  /*----------------------------------------------------*/
-  /*	Preloader
-		/*----------------------------------------------------*/
-
-  $('#loader')
-    .delay(100)
-    .fadeOut();
-  $('#loader-wrapper')
-    .delay(100)
-    .fadeOut('fast');
-
-  $(window).stellar({});
-});
+  'use strict'; 
 
 $(window).on('scroll', function() {
   'use strict';
@@ -64,26 +50,7 @@ $(document).ready(function() {
       .addClass('collapse');
     $('#navigation-menu').removeClass('open');
   });
-
-  /*----------------------------------------------------*/
-  /*	OnScroll Animation
-		/*----------------------------------------------------*/
-
-  $('.animated').appear(function() {
-    var elem = $(this);
-    var animation = elem.data('animation');
-
-    if (!elem.hasClass('visible')) {
-      var animationDelay = elem.data('animation-delay');
-      if (animationDelay) {
-        setTimeout(function() {
-          elem.addClass(animation + ' visible');
-        }, animationDelay);
-      } else {
-        elem.addClass(animation + ' visible');
-      }
-    }
-  });
+ 
 
   /*----------------------------------------------------*/
   /*	ScrollUp
