@@ -20,12 +20,14 @@ header#header-3 nav {
   padding-bottom: 1em;
 }
 
+
+
 section#intro-6 {
   max-width: 1920px;
+  min-height: calc(100vh - 72px - 104px);
   background: url(/assets/bg-1920-10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 section#intro-6 {
