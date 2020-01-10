@@ -1,0 +1,45 @@
+.navbar-brand {
+  padding: 0;
+}
+
+header#header-3 nav {
+  -moz-box-shadow: 0 2px 18px 0 rgba(128, 128, 128, 0.25);
+  -webkit-box-shadow: 0 2px 18px 0 rgba(128, 128, 128, 0.25);
+  box-shadow: 0 2px 18px 0 rgba(128, 128, 128, 0.25);
+}
+
+@media only screen and (max-width: 767px) {
+  #header-3 {
+    margin-bottom: inherit;
+  }
+}
+
+.col-md-6.intro-txt.white-color {
+  background-color: rgba(0, 0, 0, .45);
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+section#intro-6 {
+  max-width: 1920px;
+  background: url(/assets/bg-1920-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+section#intro-6 {
+  background-color: #eee;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.no-left-pad {
+  padding-left: 0;
+}
+
+.no-right-pad {
+  padding-right: 0;
+}
