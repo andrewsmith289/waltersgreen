@@ -1,8 +1,5 @@
 // JavaScript Document
 
-$(window).on('load', function() {
-  'use strict'; 
-
 $(window).on('scroll', function() {
   'use strict';
 
@@ -50,7 +47,6 @@ $(document).ready(function() {
       .addClass('collapse');
     $('#navigation-menu').removeClass('open');
   });
- 
 
   /*----------------------------------------------------*/
   /*	ScrollUp
